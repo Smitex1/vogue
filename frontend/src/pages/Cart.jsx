@@ -1,4 +1,4 @@
-import { Add, Remove } from "@material-ui/icons";
+
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -188,10 +188,10 @@ const Cart = () => {
               </ProductDetail>
               <PriceDetail>
                 <ProductAmountContainer>
-                  <Add />
+                 
                   <ProductAmount>2</ProductAmount>
-                  <Remove />
-                </ProductAmountContainer>
+                  
+                  </ProductAmountContainer>
                 <ProductPrice>$ 30</ProductPrice>
               </PriceDetail>
             </Product>
@@ -214,9 +214,9 @@ const Cart = () => {
               </ProductDetail>
               <PriceDetail>
                 <ProductAmountContainer>
-                  <Add />
+                
                   <ProductAmount>1</ProductAmount>
-                  <Remove />
+              
                 </ProductAmountContainer>
                 <ProductPrice>#4000</ProductPrice>
               </PriceDetail>
